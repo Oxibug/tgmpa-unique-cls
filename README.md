@@ -1,6 +1,13 @@
 # TGMPA Prefixed in Unique Classes
 TGM Plugin Activation Modified, Use unique classes to be able to use multiple TGMPA in the same site simultaneously.
 
+==================
+
+If your project depend on namespace, You need to use TGMPA prefixed with namespace instead
+https://github.com/Oxibug/tgmpa-ns
+
+==================
+
 How to use?
 
 1. Search & Modify **CLSOXB_TGMPA_** with your own class prefix.
