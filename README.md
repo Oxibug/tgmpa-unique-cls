@@ -1,4 +1,4 @@
-# tgmpa-unique-cls
+# TGMPA Prefixed in Unique Classes
 TGM Plugin Activation Modified, Use unique classes to be able to use multiple TGMPA in the same site simultaneously.
 
 How to use?
