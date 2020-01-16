@@ -20,14 +20,18 @@ Include the TGMPA in the main project's file like **functions.php** in themes or
 Include the TGM_Plugin_Activation class, Depending on your implementation, you may want to change the include call:
  
 **Parent Theme:**
+
 require_once     get_template_directory()    . '/path/to/tgmpa-includes.php';
  
 **Child Theme:**
+
 require_once     get_stylesheet_directory()  . '/path/to/tgmpa-includes.php';
  
 **Plugin:**
+
 require_once     dirname( __FILE__ )         . '/path/to/tgmpa-includes.php';
  
 **Example**
+
 require_once ( get_template_directory() . '/inc/tgmpa/tgmpa-includes.php' );
 CLSOXB_TGMPA_Includes::instance( get_template_directory() . '/inc/tgmpa' );
