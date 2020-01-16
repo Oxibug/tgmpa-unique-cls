@@ -34,4 +34,5 @@ Include the TGM_Plugin_Activation class, Depending on your implementation, you m
 **Example**
 
 `require_once ( get_template_directory() . '/inc/tgmpa/tgmpa-includes.php' );
+
 CLSOXB_TGMPA_Includes::instance( get_template_directory() . '/inc/tgmpa' );`
